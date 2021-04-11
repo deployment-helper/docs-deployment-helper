@@ -36,4 +36,6 @@ jobs:
         source-directory: 'build'
         destination-github-username: 'deployment-helper'
         destination-repository-name: 'deployment-helper.github.io'
+        target-branch: 'main'
+        commit-message: 'Github action commit - '
         user-email: github-actions@github.com
