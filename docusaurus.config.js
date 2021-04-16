@@ -4,7 +4,7 @@ module.exports = {
   tagline: "Deploy templates with clicks",
   url: "https://deployment-helper.github.io/",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.jpeg",
   organizationName: "deployment-helper", // Usually your GitHub org/user name.
@@ -19,13 +19,11 @@ module.exports = {
       items: [
         {
           to: "introduction/getting-started",
-          activeBasePath: "docs",
           label: "Getting Started",
           position: "right",
         },
         {
           to: "technical-design/design",
-          activeBasePath: "docs",
           label: "How Works",
           position: "right",
         },
@@ -92,8 +90,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: "/",
           // Please change this to your repo.
+          routeBasePath: '/',
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
         },
