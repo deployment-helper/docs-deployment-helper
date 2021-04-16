@@ -1,75 +1,84 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Deployment Helper',
-  tagline: 'Deploy templates with clicks',
-  url: 'https://deployment-helper.github.io/',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.jpeg',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "Deployment Helper",
+  tagline: "Deploy templates with clicks",
+  url: "https://deployment-helper.github.io/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/logo.jpeg",
+  organizationName: "deployment-helper", // Usually your GitHub org/user name.
+  projectName: "Deployment Helper", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Deployment Helper',
+      title: "Deployment Helper",
       logo: {
-        alt: 'Deployment Helper',
-        src: 'img/logo.jpeg',
+        alt: "Deployment Helper",
+        src: "img/logo.jpeg",
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "introduction/getting-started",
+          activeBasePath: "docs",
+          label: "Getting Started",
+          position: "right",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://deployment-helper.github.io/',
-          label: 'Deployment Helper',
-          position: 'right',
+          to: "technical-design/design",
+          activeBasePath: "docs",
+          label: "How Works",
+          position: "right",
+        },
+        { to: "tutorials/github-pages", label: "Tutorials", position: "right" },
+        { to: "api/api", label: "API", position: "right" },
+        { to: "packages/packages", label: "Packages", position: "right" },
+        { to: "blog", label: "Blog", position: "right" },
+        {
+          href: "https://deployment-helper.github.io/",
+          label: "Github",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/',
+              label: "Getting Started",
+              to: "docs/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/docusaurus",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Twitter",
+              href: "https://twitter.com/docusaurus",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: "Blog",
+              to: "blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://deployment-helper.github.io/',
+              label: "GitHub",
+              href: "https://deployment-helper.github.io/",
             },
           ],
         },
@@ -79,22 +88,23 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

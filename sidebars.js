@@ -1,18 +1,15 @@
 module.exports = {
-  docs: [
-    {
-      type: 'category',
-      label: 'Docusaurus Tutorial',
-      items: [
-        'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
-        'wire-frames',
-        'objective'
-      ],
-    },
-  ],
+  docs: {
+    Introduction: ["introduction/getting-started"],
+    "Technical Design": [
+      {
+        type: "category",
+        label: "Template Management",
+        items: ["technical-design/design"],
+      },
+    ],
+    Tutorials:["tutorials/github-pages"],
+    Api:["api/api"],
+    Packages:["packages/packages"]
+  },
 };
