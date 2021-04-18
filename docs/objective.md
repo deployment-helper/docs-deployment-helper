@@ -1,4 +1,6 @@
-# Deployment Helper Objective
+---
+title: Deployment Helper Objective
+---
 
 * To provide clickable platform for
   * New Software developer
@@ -8,14 +10,14 @@
   * Provide platform for Organizations/Developers to create customized *Deployment Flow* for future re-use.
   * Provide capabilities to fork currently running application with data migration
 
-# Thumb Rules 
+## Thumb Rules
 
 * Every component of the project will work on open standards
 * Every component of the project will work with Automation as much as possible
 * Every component of the project will have AI integration as much as possible
 * Plugin based system
 
-# Next Steps 
+## Next Steps
 
 * Analyse previously created work
 * Distribute applications in domains/components

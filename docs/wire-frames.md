@@ -1,4 +1,6 @@
-# Wire frames
+---
+title: Wire frames
+---
 
 What user will need for deployment
 

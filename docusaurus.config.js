@@ -93,13 +93,13 @@ module.exports = {
           // Please change this to your repo.
           routeBasePath: '/',
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/deployment-helper/docs-deployment-helper/tree/dev",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/deployment-helper/docs-deployment-helper/tree/dev",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
