@@ -17,8 +17,13 @@ title: Decisions
 **Accepted Solution:**
 
 * AWS Incognito
-* https://cloud.google.com/identity-platform
-* Azure Active Directory
+
+We are choosing AWS because of
+
+* Cost
+* Simplicity
+* Extensibility
+* Sass Solution
 
 ## API Management
 
@@ -33,9 +38,12 @@ title: Decisions
 
 **Accepted Solution:**
 
-* Azure API management
 * GCP
-* AWS
+
+We are choosing GCP because of
+
+* Low cost
+* Sass Solutions
 
 ## API Development
 
@@ -53,10 +61,13 @@ title: Decisions
 
 **Accepted Solutions:**
 
-* GCP AppEngine
 * GCP Cloud Run
-* Azure App Service
-* AWS Fargate
+
+We choosing GCP cloud run because of
+
+* Price
+* Container based development and deployment
+* Flexibility to move other cloud if needed
 
 ## Deployment Engine
 
@@ -70,6 +81,10 @@ title: Decisions
 
 **Accepted Solutions:**
 
+* Azure Logic App
+* GCP Workflow
+* AWS State Machine
+
 ## Database
 
 **What we want:**
@@ -79,3 +94,14 @@ title: Decisions
 ## Questions
 
 * Service mesh
+* CI/CD Mono repo support
+* Go lang mono repo tool
+* ProtoBuffer protocol
+* Secure token in transit or in application
+* Threat Modeling
+* Integration with third parties like
+  * slack
+  * Teams
+  * Email integration
+* octopus.com is project to study
+* Project and Organization level environments and credentials

@@ -8,7 +8,7 @@ module.exports = {
       {
         type: "category",
         label: "Template Management",
-        items: ["technical-design/design"],
+        items: ["technical-design/template-management"],
       },
     ],
     Tutorials:["tutorials/github-pages"],
