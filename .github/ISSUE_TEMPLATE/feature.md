@@ -8,4 +8,4 @@ assignees: ''
 ---
 
 **Tasks**
-- [ ] hello
+- [ ] issue/issue url/pr url
