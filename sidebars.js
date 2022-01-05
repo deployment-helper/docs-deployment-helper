@@ -1,6 +1,6 @@
 module.exports = {
   docs: {
-    Introduction: ["introduction/getting-started"],
+    Introduction: ["introduction/application-components"],
     "Technical Design": [
       "objective",
       "technical-design/decisions",

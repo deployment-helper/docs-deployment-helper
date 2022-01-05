@@ -18,8 +18,8 @@ module.exports = {
       },
       items: [
         {
-          to: "introduction/getting-started",
-          label: "Getting Started",
+          to: "introduction/application-components",
+          label: "Application Components",
           position: "right",
         },
         {
@@ -45,7 +45,7 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Getting Started",
+              label: "Application Components",
               to: "docs/",
             },
           ],
